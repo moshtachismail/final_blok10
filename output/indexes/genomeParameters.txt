@@ -1,0 +1,19 @@
+### STAR   --runMode genomeGenerate      --genomeDir output/STAR_output/indexes   --genomeFastaFiles /Users/mushtaaqismail/Documents/course_9_10/STAR_in_snakemake/input_files/STAR_inputs/Homo_sapiens.GRCh38.dna.chromosome.10.fa      --outFileNamePrefix indexes/chr10   --sjdbGTFfile /Users/mushtaaqismail/Documents/course_9_10/STAR_in_snakemake/input_files/STAR_inputs/gencode.v29.annotation_chr10.gtf   --sjdbOverhang 50
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/Users/mushtaaqismail/Documents/course_9_10/STAR_in_snakemake/input_files/STAR_inputs/Homo_sapiens.GRCh38.dna.chromosome.10.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	50
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/Users/mushtaaqismail/Documents/course_9_10/STAR_in_snakemake/input_files/STAR_inputs/gencode.v29.annotation_chr10.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	135357464 1110870440
