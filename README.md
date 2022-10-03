@@ -14,7 +14,7 @@ installed. STAR, GATK and Snakemake are all tools which needs to be installed on
 
 ## SnakeMake
 The snakemake is functional at the moment, but can only be used on the server from the HAN. This because the files that are being used are way too large to be put on this Git. Therefore only a couple files can be found on this Git. If you want to access all the other documents, you should login into the server of the HAN. 
-Remember to activate the conda environment by executing the following command: conda activate gatk. Otherwise the Snakefile wont be able to run. 
+Remember to activate the conda environment by executing the following command: conda activate gatk. Otherwise the Snakefile wont be able to run. You can run the snakemake with the command "snakemake all --cores 1", there is a chance you would get a job done straight away. Because everything has already been ran once on the server. 
 
 ## Additional information
 The data that has been used to run the snakemake is the sample from one patient. This does not change the functionality of the script, because the fact the Snakefile can be used for multiple samples with a little change.
