@@ -13,7 +13,8 @@ Make sure all the packages from the requirements.txt have been
 installed. STAR, GATK and Snakemake are all tools which needs to be installed on the server/PC as well. 
 
 ## SnakeMake
-The snakemake is functional at the moment, but can be only used on the server from the HAN. This because the files that are being used are way too large to be put on this Git. Therefore only the results of the snakemake can be found on here along with the Snakefile.
+The snakemake is functional at the moment, but can only be used on the server from the HAN. This because the files that are being used are way too large to be put on this Git. Therefore only a couple files can be found on this Git. If you want to access all the other documents, you should login into the server of the HAN. 
+Remember to activate the conda environment by executing the following command: conda activate gatk. Otherwise the Snakefile wont be able to run. 
 
 ## Additional information
-The data that has been used to run the snakemake is the sample from one patient. Also we ran the snakemake by using a testfile from all the ProteinID's, because this is the biggest process within the Snakemake and therfore takes awhile before its done. So to be certain that the Snakemake works we chose a couple of ID's. It does not change anything the Snakefile can be used for all the protein ID's it just takes a bit longer. Also the fact that we've only used one sample doesnt matter the Snakefile can be used for multiple samples with a little change.
+The data that has been used to run the snakemake is the sample from one patient. This does not change the functionality of the script, because the fact the Snakefile can be used for multiple samples with a little change.
